@@ -1,0 +1,8 @@
+{"events":[{"_id":1,"name":"Equipo de mate","image":"./assets/img/EquipoDeMate.jpg","price":5000},
+{"_id":2,"name":"Remera","image":"./assets/img/Remera.jpg","price":6500},
+{"_id":3,"name":"Taza de Clubes de Fútbol","image":"./assets/img/Tazas.jpg","price":2500},
+{"_id":4,"name":"Alfajores regionales","image":"./assets/img/Alfajores.jpg","price":4500},
+{"_id":5,"name":"Dulce de leche","image":"./assets/img/DulceDeLeche.jpg","price":1000},
+{"_id":6,"name":"Imagen Cura Brochero","image":"./assets/img/Adornos.jpg","price":1500},
+{"_id":7,"name":"Relojes en madera","image":"./assets/img/Reloj.jpg","price":3500},
+{"_id":8,"name":"Retratos de paisajes","image":"./assets/img/Cuadros.jpg","price":2500}]}

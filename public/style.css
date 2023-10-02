@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+header{
+    background-color: #afc3c0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5%;
+    background-color: #CFDBDA;
+}
+
+h5{
+    color: #5d847e;
+    size: 2%;
+    margin-left: 45%;
+}
+
+.body_index{
+    background-color: #CFDBDA;
+    width: 100%;
+    height: 100%;
+}
+
+.main_index{
+    display: flex;
+    flex-direction: column;
+}
+
+#p_index{
+    width: 70%;
+    height: 35%;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: 'Klee One', cursive;
+    text-align: center;
+}
+
+.Actv{
+    display: flex;
+    flex-direction: column;
+}
+
+.Actividades{
+    width: 40%;
+    height: 20vh;
+    margin: 0.5% 0.7% 0.5% 10%;
+    font-family: 'Klee One', cursive;
+}
+
+#A1{
+    background-image: url(./assets/img/paisajes.jpg);
+    background-size: cover;
+    color: #E2EEEC;
+}
+
+#A2{
+    background-image: url(./assets/img/recreativo.jpg);
+    background-size: cover;
+    color: #6d918c;
+}
+
+#A3{
+    background-image: url(./assets/img/gastronomia.jpg);
+    background-size: cover;
+    color: #E2EEEC;
+}
+
+#A4{
+    width: 30%;
+    height: 65vh;
+    background-image: url(./assets/img/estancias.jpg);
+    background-size: cover;
+    margin: -30.5% 0% 0% 51%;
+    font-family: 'Klee One', cursive;
+    color: #6d918c;
+}
+
+#A1:hover{
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+}
+
+#A2:hover{
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+} 
+
+#A3:hover{
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+} 
+
+#A4:hover{
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 85vh;
+}
+
+#carouselExampleControls{
+    width: 100vw;
+    height: 8vh;
+    background-color: #37745B;
+    font-size: 1rem;
+}
+
+.pos{
+    margin: 0vh 0vw 0vh 0vw;
+    margin-left: 40vw;
+    margin-top: 10vh;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    margin-left: 0vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.h1_admin{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#77a19b;
+    margin: 15% 0% 0% 35%;
+}
+
+.p_admin{
+    font-family: 'Fuggles', cursive;
+    color: #6d918c;
+    margin: 0% 0% 10% 39%;
+    font-size: 70px;
+}
+
+.subform{
+    margin: 0% 0% 0% 4%;
+}
+
+.botton{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    width: 35vw;
+    height: 50vh;
+    padding: 5%;
+    margin: 12vh 7vw 7vh 33vw;
+}
+
+#carouselImagenes{
+    width: 100%;
+    height: 100vh;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+h4{
+    margin-left: 80vw;
+    color: gray;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    width: 100%;
+    min-height: 90vh ;
+    background-color: #00000021;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1vh 0.5vw 1vh 0.5vw;
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+}
+
+.header-card{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header-card>h3{
+    width: 100%;
+    height: 50%;
+    padding: 5%;
+    align-self: center;
+    color: #217074;
+}
+
+.header-card>h5{
+    align-self: center;
+    color: gray;
+}
+
+.header-card>img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.p_card{
+    color: white;
+    font-weight: bold;
+    width: 4.5rem;
+    height: 1.5rem;
+    background-color: rgb(174, 174, 174);
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 3px;
+    margin-left: 70%;
+    margin-top: -14%;
+    text-decoration: none;
+    text-align: center;
+}
+
+#checkbox{
+    display: flex;
+    align-content: space-between;
+    padding: .5rem;
+}
+
+@media (min-width: 1000px){
+    .checkbox_menu, .fi-br-menu-burger, .fi-br-cross{
+        display: none;
+    }
+
+    .menu{
+        top: 0px;
+        z-index: 1;
+        display: flex;
+        width: unset;
+        height: 48px;
+    }
+
+    .menu li a{
+        border-radius: 5px;
+        width: 9rem;
+        margin: 5% 2% 5% 2%;
+        text-align: center;
+        background-color: #217074;
+        border-color: #217074;
+        border-radius: 5px;
+        padding: 0.5%;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 375px){
+    body, header, footer, table{
+        width: auto;
+        height: auto;
+    }
+
+    .form_contacto{
+        width: auto;
+        height: auto;
+    }
+
+    .caja{
+        width: auto;
+        margin-bottom: auto;
+    }
+
+    .card{
+        width: auto;
+        height: auto;
+    }
+
+    .card2{
+        width: 100vw;
+        height: 25vh;
+        margin: auto auto auto auto;
+    }
+
+    .button{
+        width: auto;
+        height: auto;
+    }
+
+    #carouselExampleControls{
+        width: auto;
+        height: auto;
+    } 
+
+    #Logo{
+        width: 25%;
+        height: 25%;
+    }
+
+    .card_detail{
+        width: auto;
+        height: auto;
+    }
+
+    .btn, .btn-primary{
+        width: 25%;
+        height: 5%;
+    }
+
+    h4{
+        margin-left: auto;
+    }
+
+    .header-card2{
+        width: 50vw;
+        height: 25vh;
+    }
+
+    .body-detail{
+        width: 50vw;
+        height: 25vh;
+        margin: 0;
+        font-size: 10px !important;
+    }
+
+    .body-detail > h3{
+        margin-top: 0vh;
+    }
+
+    .body-detail > p{
+        margin: 0;
+    }
+
+    .header-card2>img{
+        width: 50vw;
+        height: 20vh;
+        margin-top: 0;
+    }
+
+    #boton{
+        margin: -10px 0px 30px auto;
+    }
+
+    #checkbox{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 840px){
+    body, header, footer, table{
+        width: auto;
+        height: auto;
+    }
+
+    .form_contacto{
+        width: auto;
+        height: auto;
+    }
+
+    .caja{
+        width: auto;
+        margin-bottom: auto;
+    }
+
+    .card{
+        width: auto;
+        height: auto;
+    }
+
+    .card2{
+        width: 100vw;
+        height: 25vh;
+        margin: auto auto auto auto;
+    }
+
+    #carouselExampleControls{
+        width: auto;
+        height: auto;
+    }    
+    
+    #Logo{
+        width: 25%;
+        height: 25%;
+    }
+
+    .card_detail{
+        width: auto;
+        height: auto;
+    }
+
+    .btn, .btn-primary{
+        width: 25%;
+        height: 5%;
+    }
+
+    h4{
+        margin-left: auto;
+    }
+
+    .header-card2{
+        width: 50vw;
+        height: 25vh;
+    }
+
+    .body-detail{
+        width: 50vw;
+        height: 25vh;
+        margin: 0;
+        font-size: 10px !important;
+    }
+
+    .body-detail > h3{
+        margin-top: 0vh;
+    }
+
+    .body-detail > p{
+        margin: 0;
+    }
+
+    .header-card2>img{
+        width: 50vw;
+        height: 20vh;
+        margin-top: 0;
+    }
+
+    #boton{
+        margin: -10px 0px 30px auto;
+    }
+
+    #checkbox{
+        flex-wrap: wrap;
+    }
+}
