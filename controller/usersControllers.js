@@ -16,19 +16,18 @@ const usersCreate = (req, res) => {
         console.log('Existe un error de validación');
         res.render('error.html');
         res.json({errores: errores})
-    }
-    
-    const {nombre, email, password } = req.body;
+    }else{
+        const {nombre, email, password } = req.body;
+        console.log(`Datos recibidos ${nombre} - ${email} - ${password}`);
+        res.render('admin.html')
 
-    console.log(`Datos recibidos ${nombre} - ${email} - ${password}`);
-    res.render('admin.html')
+        res.json({
+            nombre,
+            email,
+            password
+        })
 
-    res.json({
-        nombre,
-        email,
-        password
-    })
-    
+    }    
 }
 
 module.exports = {
